@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function mouse() {
+export default function mouse() { 
   const [x, setX] = useState(0)
 
   const arrayY = useState(0)
