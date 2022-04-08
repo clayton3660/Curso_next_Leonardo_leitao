@@ -1,12 +1,10 @@
 import { useState } from "react"
-import ContadorDisplay from "../../components/contadorDisplay"
+import NumeroDisplay from "../../components/NumeroDisplay"
 
 export default function contador() {
   const [number, setNumber] = useState(0)
-  
 
   const adiciona = () =>  setNumber(number + 1)
-
   const remove = () => {
     setNumber(number - 1)
   }
@@ -22,7 +20,7 @@ export default function contador() {
     return (
             <div style={estilo}>
               <h1>Contador</h1>
-              <ContadorDisplay number={number} />
+              <NumeroDisplay number={number} />
               {/* <div>Valor: {number}</div> */}
               <div>
                 <button onClick={adiciona}>+</button>

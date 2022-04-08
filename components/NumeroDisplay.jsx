@@ -7,8 +7,8 @@ export default function ContadorDisplay(props) {
               height: '50px',
               width: '50px',
               borderRadius: '25px',
-              backgroundColor: '#fff',
-              color: '#222',
+              backgroundColor: '#222',
+              color: '#fff',
               fontSize: '2rem',
               margin:"20px"
             }}>
